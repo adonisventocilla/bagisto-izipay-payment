@@ -1,0 +1,29 @@
+{
+    "name": "avs/bagisto-izipay-payment",
+    "description": "Bagisto Izipay Payment add-on allow customers to pay for others using Izipay payment gateway.",
+    "license": "MIT",
+    "authors": [{
+            "name": "Adonis Ventocilla",
+            "email": "ventocilla.adonis@gmail.com"
+        },
+        {
+            "name": "Luis Mendoza",
+            "email": "lmendoza27@autonoma.edu.pe"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AVS\\Izipay\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AVS\\Izipay\\Providers\\IzipayServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
