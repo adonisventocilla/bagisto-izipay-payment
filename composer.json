@@ -1,5 +1,5 @@
 {
-    "name": "avs/bagisto-izipay-payment",
+    "name": "adonisventocilla/bagisto-izipay-payment",
     "description": "Bagisto Izipay Payment add-on allow customers to pay for others using Izipay payment gateway.",
     "license": "MIT",
     "authors": [{
