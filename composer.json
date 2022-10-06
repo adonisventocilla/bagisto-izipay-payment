@@ -2,15 +2,15 @@
     "name": "adonisventocilla/bagisto-izipay-payment",
     "description": "Bagisto Izipay Payment add-on allow customers to pay for others using Izipay payment gateway.",
     "license": "MIT",
-    "authors": [{
-            "name": "Adonis Ventocilla",
-            "email": "ventocilla.adonis@gmail.com"
-        },
-        {
-            "name": "Luis Mendoza",
-            "email": "lmendoza27@autonoma.edu.pe"
-        }
+    "keywords": [
+        "bagisto",
+        "izipay",
+        "izipay payment"
     ],
+    "authors": [{
+        "name": "Adonis Ventocilla",
+        "email": "ventocilla.adonis@gmail.com"
+    }],
     "require": {},
     "autoload": {
         "psr-4": {
