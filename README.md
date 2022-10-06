@@ -9,7 +9,7 @@ Bagisto Izipay Payment add-on allow customers to pay for others using Izipay pay
 ## Installation :
 - Run the following command
 ```
-composer require bagisto/bagisto-izipay-payment
+composer require adonisventocilla/bagisto-izipay-payment
 ```
 
 - Goto VerifyCsrfToken.php file and add following line in protected $except array (FilePath - app->Http->Middleware->VerifyCsrfToken.php)
